@@ -1,0 +1,123 @@
+html {
+    background-color: grey;
+}
+
+body {
+    margin: 0 150 0 150;
+    background-color: white;
+}
+
+h1 {
+    margin: 0 0 15 0;
+    padding: 20 20 20 20;
+    color: blue;
+    font-size: 48px;
+}
+
+a {
+    color: black;
+    text-decoration:underline;
+    -ms-user-select: none; /* IE 10+ */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: auto;
+    -webkit-user-select: auto;
+    user-select: none;
+}
+
+a:hover{
+    color: black;
+}
+
+#answer {
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    animation: anime1 11s ease-in 0s 1 normal;
+    font-size: 64px;
+
+    -webkit-transition: 1s;
+	  -moz-transition: 1s;
+	  -o-transition: 1s;
+	  transition:1s;
+}
+#answer:active{
+    animation: anime1 1s ease-in 0s 1 normal;
+}
+
+#description {
+    border: inset 5px #ff0000;
+    margin: 100 20 0 20;
+    width: 70%;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20 20 20 20;
+    animation: anime1 12s ease-in 0s 1 normal;
+}
+
+#illust {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes anime1 {
+    100% {background-color: white;}
+    90% {background-color: black;}
+    0% {background-color: black;}
+}
+
+@-moz-keyframes anime1 {
+    100% {background-color: white;}
+    90% {background-color: black;}
+    0% {background-color: black;}
+}
+
+@-webkit-keyframes anime1 {
+    100% {background-color: white;}
+    90% {background-color: black;}
+    0% {background-color: black;}
+}
+
+@-o-keyframes anime1 {
+    100% {background-color: white;}
+    90% {background-color: black;}
+    0% {background-color: black;}
+}
+
+@-ms-keyframes anime1 {
+    100% {background-color: white;}
+    90% {background-color: black;}
+    0% {background-color: black;}
+}
+
+div.time {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-animation: anime2 10s linear 0s reverse;
+  -webkit-animation: anime2 10s linear 0s reverse;
+  -o-animation: anime2 10s linear 0s reverse;
+  -ms-animation: anime2 10s linear 0s reverse;
+}
+
+@-moz-keyframes anime2 {
+  0% {width: 0px; height: 50px; background-color: red;}
+  100% {width: 800px; height: 50px; background-color: blue;}
+}
+
+@-webkit-keyframes anime2 {
+  0% {width: 0px; height: 50px; background-color: red;}
+  100% {width: 800px; height: 50px; background-color: blue;}
+}
+
+@-o-keyframes anime2 {
+  0% {width: 0px; height: 50px; background-color: red;}
+  100% {width: 800px; height: 50px; background-color: blue;}
+}
+
+@-ms-keyframes anime2 {
+  0% {width: 0px; height: 50px; background-color: red;}
+  100% {width: 800px; height: 50px; background-color: blue;}
+}
